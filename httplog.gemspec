@@ -42,4 +42,6 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'rack', ['>= 1.0']
   gem.add_dependency 'rainbow', ['>= 2.0.0']
+  gem.add_dependency 'zlib'
+  gem.add_dependency 'brotli'
 end

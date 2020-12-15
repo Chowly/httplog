@@ -9,3 +9,6 @@ require 'httplog/adapters/excon'
 require 'httplog/adapters/ethon'
 require 'httplog/adapters/patron'
 require 'httplog/adapters/http'
+
+require 'brotli'
+require 'zlib'
