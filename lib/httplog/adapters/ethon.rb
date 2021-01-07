@@ -48,6 +48,10 @@ if defined?(Ethon)
               content_type: content_type,
               mask_body: HttpLog.masked_body_url?(url)
             )
+
+            # Rewind this?
+            response_body.rewind
+
             return_code
           end
 
